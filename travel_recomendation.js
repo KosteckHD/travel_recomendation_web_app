@@ -68,7 +68,6 @@ function filterPlaces(query) {
 
     return places.filter(place =>
         place.name.toLowerCase().includes(normalizedQuery) ||
-        place.description.toLowerCase().includes(normalizedQuery) ||
         place.category.toLowerCase().includes(normalizedQuery)
     );
 }
