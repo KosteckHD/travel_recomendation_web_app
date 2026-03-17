@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Web App</title>
+    <link rel="stylesheet" href="./travel_recomendation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="appTitle"><h1>Travel Recommendation Web App</h1></div>
+        <div id="navLinks">
+            <ul id="navList">
+                <li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./about_us.html" id="about_us">About Us</a></li>
+                <li><a href="./contact.html" id="contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="searchContainer">
+            <input type="text" id="destinationInput" placeholder="Enter a destination ">
+            <button id="searchBtn" type="button">Search</button>
+            <button id="clearBtn" type="button">Clear</button>
+        </div>
+    </nav>
+    <div class="content">
+        <div>
+            <h1>Welcome to our Travel Recommendation Web App!</h1>
+            <p>Discover the best travel destinations around the world based on your preferences and interests. Whether you're looking for a relaxing beach getaway, an adventurous mountain trek, or a cultural city tour, we've got you covered.</p>
+        </div>
+        <div>
+            <h2>How to Use</h2>
+            <p>Simply enter a destination in the search bar above and click the "Search" button to get personalized travel recommendations. You can also click the "Clear" button to reset your search and start over.</p>
+        </div>
+        <div>
+            <h2>Explore Popular Destinations</h2>
+            <p>Check out some of our popular travel destinations and find inspiration for your next trip!</p>
+        </div>
+        <div id="recommendations">
+        
+        </div>
+    </div>
+    <script src="./travel_recomendation.js"></script>
+</body>
+</html>

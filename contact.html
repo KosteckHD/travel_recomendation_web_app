@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Web App</title>
+    <link rel="stylesheet" href="./travel_recomendation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="appTitle"><h1>Travel Recommendation Web App</h1></div>
+        <div id="navLinks">
+            <ul id="navList">
+                <li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./about_us.html" id="about_us">About Us</a></li>
+                <li><a href="./contact.html" id="contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="searchContainer">
+            <input type="text" id="destinationInput" placeholder="Enter a destination ">
+            <button id="searchBtn"><a href="./search.html">Search</a></button>
+            <button id="clearBtn" onclick="clearSearch()">Clear</button>
+        </div>
+    </nav>
+    <div >
+        <div><h1>Contact Us</h1>
+            <p>If you have any questions, suggestions, or feedback about our Travel Recommendation Web App, please feel free to reach out to us. We value your input and are here to assist you in any way we can.  </p>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <button id="submitBtn">Submit</button>
+    </div>
+</body>
+</html>
